@@ -21,8 +21,8 @@ git clone --bare https://github.com/datsciafrica/dsaXXXXstub.git
 # Renane to the event
 mv dsaXXXXstub dsaYYYYcity.git
 cd dsaYYYYcity.git
-git branch -m gh-pages
-git push --mirror git@github.com:datsciafrica/datsciafrica/dsaYYYYcity.git
+git branch -m gh-pages  # If branch already exists, delete it with git branch -D branch_name and then repeat command
+git push --mirror git@github.com:datsciafrica/dsaYYYYcity.git
 ```
 6. Now the repo is on line and you can clone it in the normal way to start working on it.
 
